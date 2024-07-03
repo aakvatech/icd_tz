@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{booking_id}",
+ "creation": "2024-06-27 13:45:05.734686",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "booking_id",
+  "booking_date",
+  "booking_time",
+  "container_number",
+  "cargo_description",
+  "c_and_f_agent",
+  "customer",
+  "inspection_location"
+ ],
+ "fields": [
+  {
+   "fieldname": "booking_id",
+   "fieldtype": "Data",
+   "label": "Booking ID"
+  },
+  {
+   "fieldname": "booking_date",
+   "fieldtype": "Date",
+   "label": "Booking date"
+  },
+  {
+   "fieldname": "booking_time",
+   "fieldtype": "Time",
+   "label": "Booking time"
+  },
+  {
+   "fieldname": "container_number",
+   "fieldtype": "Link",
+   "label": "Container number",
+   "options": "Container particulars"
+  },
+  {
+   "fieldname": "cargo_description",
+   "fieldtype": "Data",
+   "label": "Cargo description"
+  },
+  {
+   "fieldname": "c_and_f_agent",
+   "fieldtype": "Link",
+   "label": "C and F agent",
+   "options": "C and F agents"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customers"
+  },
+  {
+   "fieldname": "inspection_location",
+   "fieldtype": "Select",
+   "label": "Inspection location",
+   "options": "Location 1\nLocation 2\nLocation 3"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-27 13:53:29.351530",
+ "modified_by": "Administrator",
+ "module": "Icd Tz",
+ "name": "Booking details",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

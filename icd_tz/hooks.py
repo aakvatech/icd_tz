@@ -1,10 +1,9 @@
 app_name = "icd_tz"
 app_title = "Icd Tz"
-app_publisher = "Aakvatech"
-app_description = "App for management of ICD in Tanzania"
-app_email = "nmpanju@aakvatech.com"
-app_license = "mit"
-# required_apps = []
+app_publisher = "Nathan Kagoro"
+app_description = "Doctypes for Icd Tz"
+app_email = "nathanamanikagoro@gmail.com"
+app_license = "MIT"
 
 # Includes in <head>
 # ------------------
@@ -32,11 +31,6 @@ app_license = "mit"
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
-
-# Svg Icons
-# ------------------
-# include app icons in desk
-# app_include_icons = "icd_tz/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -219,11 +213,3 @@ app_license = "mit"
 # auth_hooks = [
 # 	"icd_tz.auth.validate"
 # ]
-
-# Automatically update python controller files with type annotations for this app.
-# export_python_type_annotations = True
-
-# default_log_clearing_doctypes = {
-# 	"Logging DocType Name": 30  # days to retain logs
-# }
-

@@ -1,9 +1,9 @@
 [project]
 name = "icd_tz"
 authors = [
-    { name = "Aakvatech", email = "nmpanju@aakvatech.com"}
+    { name = "Nathan Kagoro", email = "nathanamanikagoro@gmail.com"}
 ]
-description = "App for management of ICD in Tanzania"
+description = "Doctypes for Icd Tz"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{container_number}",
+ "creation": "2024-06-26 09:58:36.857547",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "container_number",
+  "size_m",
+  "volume_cbm",
+  "truck_plate_number",
+  "weight_kg",
+  "seal_no_1",
+  "seal_no_2",
+  "document_control_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "container_number",
+   "fieldtype": "Data",
+   "label": "Container number"
+  },
+  {
+   "fieldname": "size_m",
+   "fieldtype": "Int",
+   "label": "Size (M)"
+  },
+  {
+   "fieldname": "volume_cbm",
+   "fieldtype": "Int",
+   "label": "Volume (CBM)"
+  },
+  {
+   "fieldname": "truck_plate_number",
+   "fieldtype": "Data",
+   "label": "Truck plate number"
+  },
+  {
+   "fieldname": "weight_kg",
+   "fieldtype": "Data",
+   "label": "Weight (Kg)"
+  },
+  {
+   "fieldname": "seal_no_1",
+   "fieldtype": "Data",
+   "label": "Seal no. 1"
+  },
+  {
+   "fieldname": "seal_no_2",
+   "fieldtype": "Data",
+   "label": "Seal no. 2"
+  },
+  {
+   "fieldname": "document_control_number",
+   "fieldtype": "Data",
+   "label": "Document control number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-27 13:37:34.303247",
+ "modified_by": "Administrator",
+ "module": "Icd Tz",
+ "name": "Container particulars",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
