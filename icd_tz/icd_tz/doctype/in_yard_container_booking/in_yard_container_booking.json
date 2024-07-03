@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{container_number}-{tansad_number}",
+ "creation": "2024-06-27 16:35:47.719536",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "container_number",
+  "tansad_number",
+  "c_and_f_agent",
+  "booking_comment"
+ ],
+ "fields": [
+  {
+   "fieldname": "container_number",
+   "fieldtype": "Link",
+   "label": "Container number",
+   "options": "Container particulars"
+  },
+  {
+   "fieldname": "c_and_f_agent",
+   "fieldtype": "Link",
+   "label": "C and F agent",
+   "options": "C and F agents"
+  },
+  {
+   "fieldname": "booking_comment",
+   "fieldtype": "Long Text",
+   "label": "Booking commen  (if any)"
+  },
+  {
+   "fieldname": "tansad_number",
+   "fieldtype": "Data",
+   "label": "Tansad number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-27 16:36:44.360879",
+ "modified_by": "Administrator",
+ "module": "Icd Tz",
+ "name": "In yard container booking",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

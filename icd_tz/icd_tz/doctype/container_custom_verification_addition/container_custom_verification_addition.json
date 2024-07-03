@@ -1,0 +1,157 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{movement_order_number}",
+ "creation": "2024-06-27 17:46:52.037321",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "voyage_number",
+  "container_number",
+  "container_seal",
+  "vessel_name",
+  "port",
+  "registered_by",
+  "cosignee_name",
+  "container_ft",
+  "container_location",
+  "container_status",
+  "registered_date",
+  "break_section",
+  "tra_official",
+  "icd_official",
+  "c_and_f_company",
+  "total_number_of_striping_and_stuffing",
+  "exam_status",
+  "new_seal_number",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "voyage_number",
+   "fieldtype": "Data",
+   "label": "BL number"
+  },
+  {
+   "fieldname": "container_number",
+   "fieldtype": "Data",
+   "label": "Container number"
+  },
+  {
+   "fieldname": "container_seal",
+   "fieldtype": "Data",
+   "label": "Container seal"
+  },
+  {
+   "fieldname": "vessel_name",
+   "fieldtype": "Data",
+   "label": "Vessel name"
+  },
+  {
+   "fieldname": "port",
+   "fieldtype": "Data",
+   "label": "Port"
+  },
+  {
+   "fieldname": "registered_by",
+   "fieldtype": "Data",
+   "label": "Registered by"
+  },
+  {
+   "fieldname": "cosignee_name",
+   "fieldtype": "Data",
+   "label": "Cosignee name"
+  },
+  {
+   "fieldname": "container_ft",
+   "fieldtype": "Data",
+   "label": "Container FT"
+  },
+  {
+   "fieldname": "container_location",
+   "fieldtype": "Select",
+   "label": "Container Location",
+   "options": "Location 1\nLocation 2\nLocation 3"
+  },
+  {
+   "fieldname": "container_status",
+   "fieldtype": "Data",
+   "label": "Container status"
+  },
+  {
+   "fieldname": "registered_date",
+   "fieldtype": "Date",
+   "label": "Registered date"
+  },
+  {
+   "fieldname": "break_section",
+   "fieldtype": "Section Break",
+   "label": "Break"
+  },
+  {
+   "fieldname": "tra_official",
+   "fieldtype": "Data",
+   "label": "TRA official"
+  },
+  {
+   "fieldname": "icd_official",
+   "fieldtype": "Select",
+   "label": "ICD official",
+   "options": "ICD 1\nICD 2"
+  },
+  {
+   "fieldname": "c_and_f_company",
+   "fieldtype": "Link",
+   "label": "C and F Company",
+   "options": "C and F agents"
+  },
+  {
+   "fieldname": "total_number_of_striping_and_stuffing",
+   "fieldtype": "Select",
+   "label": "Total number of Striping and Stuffing",
+   "options": "1\n2\n5"
+  },
+  {
+   "fieldname": "exam_status",
+   "fieldtype": "Data",
+   "label": "Exam status"
+  },
+  {
+   "fieldname": "new_seal_number",
+   "fieldtype": "Data",
+   "label": "New seal number"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-27 17:46:52.037321",
+ "modified_by": "Administrator",
+ "module": "Icd Tz",
+ "name": "container custom verification addition",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
