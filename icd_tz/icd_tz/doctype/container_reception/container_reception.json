@@ -1,0 +1,207 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{movement_order_number}",
+ "creation": "2024-06-26 09:42:10.321625",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "movement_order_number",
+  "rot_number",
+  "voyage_number",
+  "ship_id_date",
+  "ship_name",
+  "port",
+  "receive_date",
+  "line",
+  "break_1_section",
+  "container_particulars",
+  "container_size",
+  "container_ft",
+  "is_lcl",
+  "cbm",
+  "clerk",
+  "security_officer",
+  "container_location",
+  "seal_no_1",
+  "seal_no_2",
+  "seal_no_3",
+  "seal_condition",
+  "weight_kg",
+  "dcn",
+  "port_time_out",
+  "carry_in_date",
+  "break_2_section",
+  "condition"
+ ],
+ "fields": [
+  {
+   "fieldname": "movement_order_number",
+   "fieldtype": "Data",
+   "label": "Movement order number"
+  },
+  {
+   "fieldname": "ship_id_date",
+   "fieldtype": "Date",
+   "label": "Ship D\\C Date"
+  },
+  {
+   "fieldname": "receive_date",
+   "fieldtype": "Date",
+   "label": "Receive Date"
+  },
+  {
+   "fieldname": "voyage_number",
+   "fieldtype": "Data",
+   "label": "Voyage number"
+  },
+  {
+   "fieldname": "ship_name",
+   "fieldtype": "Data",
+   "label": "Ship name"
+  },
+  {
+   "fieldname": "port",
+   "fieldtype": "Data",
+   "label": "Port"
+  },
+  {
+   "fieldname": "line",
+   "fieldtype": "Data",
+   "label": "sline"
+  },
+  {
+   "fieldname": "container_particulars",
+   "fieldtype": "Table",
+   "label": "Container particulars",
+   "options": "Container particulars"
+  },
+  {
+   "fieldname": "port_time_out",
+   "fieldtype": "Time",
+   "label": "Port time out"
+  },
+  {
+   "fieldname": "clerk",
+   "fieldtype": "Link",
+   "label": "Clerk",
+   "options": "Clerks"
+  },
+  {
+   "fieldname": "security_officer",
+   "fieldtype": "Link",
+   "label": "Security officer",
+   "options": "Security officers"
+  },
+  {
+   "fieldname": "condition",
+   "fieldtype": "Link",
+   "label": "Condition (create a new one)",
+   "options": "Condition"
+  },
+  {
+   "fieldname": "rot_number",
+   "fieldtype": "Data",
+   "label": "Rot number"
+  },
+  {
+   "fieldname": "break_1_section",
+   "fieldtype": "Section Break",
+   "label": "Break 1"
+  },
+  {
+   "fieldname": "container_size",
+   "fieldtype": "Data",
+   "label": "Container size"
+  },
+  {
+   "fieldname": "container_ft",
+   "fieldtype": "Data",
+   "label": "Container FT"
+  },
+  {
+   "fieldname": "is_lcl",
+   "fieldtype": "Select",
+   "label": "Is LCL",
+   "options": "Y\nN"
+  },
+  {
+   "fieldname": "cbm",
+   "fieldtype": "Data",
+   "label": "CBM"
+  },
+  {
+   "fieldname": "container_location",
+   "fieldtype": "Select",
+   "label": "Container Location",
+   "options": "Location 1\nLocation 2\nLocation 3"
+  },
+  {
+   "fieldname": "seal_no_1",
+   "fieldtype": "Data",
+   "label": "Seal no. 1"
+  },
+  {
+   "fieldname": "seal_no_2",
+   "fieldtype": "Data",
+   "label": "Seal no. 2"
+  },
+  {
+   "fieldname": "seal_no_3",
+   "fieldtype": "Data",
+   "label": "Seal no. 3"
+  },
+  {
+   "fieldname": "seal_condition",
+   "fieldtype": "Data",
+   "label": "Seal condition"
+  },
+  {
+   "fieldname": "weight_kg",
+   "fieldtype": "Data",
+   "label": "Weight (KG)"
+  },
+  {
+   "fieldname": "dcn",
+   "fieldtype": "Data",
+   "label": "DCN"
+  },
+  {
+   "fieldname": "carry_in_date",
+   "fieldtype": "Date",
+   "label": "Carry in date"
+  },
+  {
+   "fieldname": "break_2_section",
+   "fieldtype": "Section Break",
+   "label": "Break 2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-27 17:19:24.311524",
+ "modified_by": "Administrator",
+ "module": "Icd Tz",
+ "name": "Container Reception",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
