@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestContainermovementcreationform(FrappeTestCase):
+class TestContainerCondition(FrappeTestCase):
 	pass

@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestCondition(FrappeTestCase):
+class TestTransporter(FrappeTestCase):
 	pass
