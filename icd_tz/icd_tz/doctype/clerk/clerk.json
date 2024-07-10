@@ -1,34 +1,39 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{agent_name",
- "creation": "2024-06-27 13:47:34.090864",
+ "autoname": "format:{employee_id}",
+ "creation": "2024-06-26 17:28:16.949114",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "agent_name",
-  "other_details"
+  "employee_id",
+  "column_break_pwyr",
+  "name1"
  ],
  "fields": [
   {
-   "fieldname": "agent_name",
+   "fieldname": "employee_id",
    "fieldtype": "Data",
-   "label": "Agent name"
+   "label": "Employee ID"
   },
   {
-   "fieldname": "other_details",
+   "fieldname": "name1",
    "fieldtype": "Data",
-   "label": "Other details"
+   "label": "Name"
+  },
+  {
+   "fieldname": "column_break_pwyr",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-27 13:47:34.090864",
+ "modified": "2024-07-10 09:18:09.452934",
  "modified_by": "Administrator",
  "module": "Icd Tz",
- "name": "C and F agents",
+ "name": "Clerk",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [

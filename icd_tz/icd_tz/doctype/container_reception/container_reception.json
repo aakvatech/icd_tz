@@ -1,207 +1,212 @@
 {
-  "actions": [],
-  "allow_events_in_timeline": 1,
-  "allow_import": 1,
-  "allow_rename": 1,
-  "autoname": "format:{movement_order_number}",
-  "creation": "2024-06-26 09:42:10.321625",
-  "default_view": "List",
-  "doctype": "DocType",
-  "editable_grid": 1,
-  "engine": "InnoDB",
-  "field_order": [
-    "details_tab",
-    "movement_order_number",
-    "ship_id_date",
-    "received_date",
-    "voyage_no",
-    "ship_name",
-    "port",
-    "line",
-    "column_break_azrq",
-    "carry_in_date",
-    "port_time_out",
-    "container_particulars_tab",
-    "container_no",
-    "size",
-    "cbm",
-    "truck_name",
-    "weight",
-    "weight_unit",
-    "seal_no_1",
-    "seal_no_2",
-    "dcn",
-    "column_break_ooci",
-    "container_condition",
-    "personnel_and_security_tab",
-    "clerk",
-    "security_officer",
-    "condition"
-  ],
-  "fields": [
-    {
-      "fieldname": "details_tab",
-      "fieldtype": "Tab Break",
-      "label": "Details"
-    },
-    {
-      "fieldname": "movement_order_number",
-      "fieldtype": "Data",
-      "label": "Movement Order Number"
-    },
-    {
-      "fieldname": "ship_id_date",
-      "fieldtype": "Date",
-      "label": "Ship I/D Date"
-    },
-    {
-      "fieldname": "received_date",
-      "fieldtype": "Date",
-      "label": "Received Date"
-    },
-    {
-      "fieldname": "voyage_no",
-      "fieldtype": "Data",
-      "label": "Voyage No"
-    },
-    {
-      "fieldname": "ship_name",
-      "fieldtype": "Data",
-      "label": "Ship"
-    },
-    {
-      "fieldname": "port",
-      "fieldtype": "Data",
-      "label": "Port"
-    },
-    {
-      "fieldname": "line",
-      "fieldtype": "Data",
-      "label": "Line"
-    },
-    {
-      "fieldname": "column_break_azrq",
-      "fieldtype": "Column Break"
-    },
-    {
-      "fieldname": "carry_in_date",
-      "fieldtype": "Date",
-      "label": "Carry-In Date"
-    },
-    {
-      "fieldname": "port_time_out",
-      "fieldtype": "Time",
-      "label": "Port Time Out"
-    },
-    {
-      "fieldname": "container_particulars_tab",
-      "fieldtype": "Tab Break",
-      "label": "Container Particulars"
-    },
-    {
-      "fieldname": "container_no",
-      "fieldtype": "Data",
-      "label": "Container #"
-    },
-    {
-      "fieldname": "size",
-      "fieldtype": "Select",
-      "label": "Size (FT)",
-      "options": "20\n40\n45"
-    },
-    {
-      "fieldname": "cbm",
-      "fieldtype": "Data",
-      "label": "CBM"
-    },
-    {
-      "fieldname": "truck_name",
-      "fieldtype": "Data",
-      "label": "Truck Name"
-    },
-    {
-      "fieldname": "weight",
-      "fieldtype": "Data",
-      "label": "Weight"
-    },
-    {
-      "fieldname": "weight_unit",
-      "fieldtype": "Select",
-      "label": "Weight Unit",
-      "options": "KG\nTON"
-    },
-    {
-      "fieldname": "seal_no_1",
-      "fieldtype": "Data",
-      "label": "Seal No. 1"
-    },
-    {
-      "fieldname": "seal_no_2",
-      "fieldtype": "Data",
-      "label": "Seal No. 2"
-    },
-    {
-      "fieldname": "dcn",
-      "fieldtype": "Data",
-      "label": "DCN"
-    },
-    {
-      "fieldname": "column_break_ooci",
-      "fieldtype": "Column Break"
-    },
-    {
-      "fieldname": "container_condition",
-      "fieldtype": "Table",
-      "label": "Container Condition",
-      "options": "Container Condition"
-    },
-    {
-      "fieldname": "personnel_and_security_tab",
-      "fieldtype": "Tab Break",
-      "label": "Personnel and Security"
-    },
-    {
-      "fieldname": "clerk",
-      "fieldtype": "Link",
-      "options": "Employee",
-      "label": "Clerk"
-    },
-    {
-      "fieldname": "security_officer",
-      "fieldtype": "Link",
-      "options": "Employee",
-      "label": "Security Officer"
-    },
-    {
-      "fieldname": "condition",
-      "fieldtype": "Link",
-      "options": "Container Condition",
-      "label": "Condition"
-    }
-  ],
-  "index_web_pages_for_search": 1,
-  "links": [],
-  "modified": "2024-07-09 17:10:28.093533",
-  "modified_by": "Administrator",
-  "module": "Icd Tz",
-  "name": "Container Reception",
-  "naming_rule": "Expression",
-  "owner": "Administrator",
-  "permissions": [
-    {
-      "create": 1,
-      "delete": 1,
-      "email": 1,
-      "export": 1,
-      "print": 1,
-      "read": 1,
-      "report": 1,
-      "role": "System Manager",
-      "share": 1,
-      "write": 1
-    }
-  ],
-  "sort_field": "modified",
-  "sort_order": "DESC",
-  "states": []
+ "actions": [],
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{movement_order_number}",
+ "creation": "2024-06-26 09:42:10.321625",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "details_tab",
+  "movement_order_number",
+  "ship_id_date",
+  "received_date",
+  "voyage_no",
+  "ship_name",
+  "line",
+  "column_break_azrq",
+  "port",
+  "carry_in_date",
+  "port_time_out",
+  "container_particulars_tab",
+  "container_no",
+  "size",
+  "cbm",
+  "truck_name",
+  "weight",
+  "weight_unit",
+  "column_break_twjr",
+  "seal_no_1",
+  "seal_no_2",
+  "dcn",
+  "section_break_fvbx",
+  "container_condition",
+  "personnel_and_security_tab",
+  "clerk",
+  "security_officer",
+  "condition"
+ ],
+ "fields": [
+  {
+   "fieldname": "details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "movement_order_number",
+   "fieldtype": "Data",
+   "label": "Movement Order Number"
+  },
+  {
+   "fieldname": "ship_id_date",
+   "fieldtype": "Date",
+   "label": "Ship I/D Date"
+  },
+  {
+   "fieldname": "received_date",
+   "fieldtype": "Date",
+   "label": "Received Date"
+  },
+  {
+   "fieldname": "voyage_no",
+   "fieldtype": "Data",
+   "label": "Voyage No"
+  },
+  {
+   "fieldname": "ship_name",
+   "fieldtype": "Data",
+   "label": "Ship"
+  },
+  {
+   "fieldname": "port",
+   "fieldtype": "Data",
+   "label": "Port"
+  },
+  {
+   "fieldname": "line",
+   "fieldtype": "Data",
+   "label": "Line"
+  },
+  {
+   "fieldname": "column_break_azrq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "carry_in_date",
+   "fieldtype": "Date",
+   "label": "Carry-In Date"
+  },
+  {
+   "fieldname": "port_time_out",
+   "fieldtype": "Time",
+   "label": "Port Time Out"
+  },
+  {
+   "fieldname": "container_particulars_tab",
+   "fieldtype": "Tab Break",
+   "label": "Container Particulars"
+  },
+  {
+   "fieldname": "container_no",
+   "fieldtype": "Data",
+   "label": "Container #"
+  },
+  {
+   "fieldname": "size",
+   "fieldtype": "Select",
+   "label": "Size (FT)",
+   "options": "20\n40\n45"
+  },
+  {
+   "fieldname": "cbm",
+   "fieldtype": "Data",
+   "label": "CBM"
+  },
+  {
+   "fieldname": "truck_name",
+   "fieldtype": "Data",
+   "label": "Truck Name"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Data",
+   "label": "Weight"
+  },
+  {
+   "fieldname": "weight_unit",
+   "fieldtype": "Select",
+   "label": "Weight Unit",
+   "options": "KG\nTON"
+  },
+  {
+   "fieldname": "seal_no_1",
+   "fieldtype": "Data",
+   "label": "Seal No. 1"
+  },
+  {
+   "fieldname": "seal_no_2",
+   "fieldtype": "Data",
+   "label": "Seal No. 2"
+  },
+  {
+   "fieldname": "dcn",
+   "fieldtype": "Data",
+   "label": "DCN"
+  },
+  {
+   "fieldname": "container_condition",
+   "fieldtype": "Table",
+   "label": "Container Condition",
+   "options": "Container Condition"
+  },
+  {
+   "fieldname": "personnel_and_security_tab",
+   "fieldtype": "Tab Break",
+   "label": "Personnel and Security"
+  },
+  {
+   "fieldname": "clerk",
+   "fieldtype": "Link",
+   "label": "Clerk",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "security_officer",
+   "fieldtype": "Link",
+   "label": "Security Officer",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "condition",
+   "fieldtype": "Link",
+   "label": "Condition",
+   "options": "Container Condition"
+  },
+  {
+   "fieldname": "column_break_twjr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_fvbx",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-09 17:33:33.465699",
+ "modified_by": "Administrator",
+ "module": "Icd Tz",
+ "name": "Container Reception",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
 }

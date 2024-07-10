@@ -1,7 +1,7 @@
 // Copyright (c) 2024, Nathan Kagoro and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on('Security officers', {
+frappe.ui.form.on('Clearing agent', {
 	// refresh: function(frm) {
 
 	// }

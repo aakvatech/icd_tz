@@ -1,7 +1,7 @@
 // Copyright (c) 2024, Nathan Kagoro and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on('Clerks', {
+frappe.ui.form.on('Clerk', {
 	// refresh: function(frm) {
 
 	// }

@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestClerks(FrappeTestCase):
+class TestClearingagent(FrappeTestCase):
 	pass

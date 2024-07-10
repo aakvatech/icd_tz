@@ -18,13 +18,13 @@
    "fieldname": "container_number",
    "fieldtype": "Link",
    "label": "Container number",
-   "options": "Container particulars"
+   "options": "Container"
   },
   {
    "fieldname": "c_and_f_agent",
    "fieldtype": "Link",
    "label": "C and F agent",
-   "options": "C and F agents"
+   "options": "Clearing agent"
   },
   {
    "fieldname": "booking_comment",
@@ -39,7 +39,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-27 16:36:44.360879",
+ "modified": "2024-07-10 09:09:51.932057",
  "modified_by": "Administrator",
  "module": "Icd Tz",
  "name": "In yard container booking",

@@ -1,40 +1,34 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{employee_id}",
- "creation": "2024-06-26 17:28:16.949114",
+ "autoname": "format:{agent_name",
+ "creation": "2024-06-27 13:47:34.090864",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "employee_id",
-  "name1",
-  "date_of_hiring"
+  "agent_name",
+  "other_details"
  ],
  "fields": [
   {
-   "fieldname": "employee_id",
+   "fieldname": "agent_name",
    "fieldtype": "Data",
-   "label": "Employee ID"
+   "label": "Agent name"
   },
   {
-   "fieldname": "name1",
+   "fieldname": "other_details",
    "fieldtype": "Data",
-   "label": "Name"
-  },
-  {
-   "fieldname": "date_of_hiring",
-   "fieldtype": "Date",
-   "label": "Date of hiring"
+   "label": "Other details"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-26 17:28:16.949114",
+ "modified": "2024-06-27 13:47:34.090864",
  "modified_by": "Administrator",
  "module": "Icd Tz",
- "name": "Clerks",
+ "name": "Clearing agent",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [

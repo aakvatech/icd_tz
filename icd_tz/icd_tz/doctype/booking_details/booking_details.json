@@ -13,6 +13,7 @@
   "booking_time",
   "container_number",
   "cargo_description",
+  "column_break_sqsy",
   "c_and_f_agent",
   "customer",
   "inspection_location"
@@ -37,18 +38,18 @@
    "fieldname": "container_number",
    "fieldtype": "Link",
    "label": "Container number",
-   "options": "Container particulars"
+   "options": "Container"
   },
   {
    "fieldname": "cargo_description",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "label": "Cargo description"
   },
   {
    "fieldname": "c_and_f_agent",
    "fieldtype": "Link",
-   "label": "C and F agent",
-   "options": "C and F agents"
+   "label": "Clearing agent",
+   "options": "Clearing agent"
   },
   {
    "fieldname": "customer",
@@ -61,30 +62,22 @@
    "fieldtype": "Select",
    "label": "Inspection location",
    "options": "Location 1\nLocation 2\nLocation 3"
+  },
+  {
+   "fieldname": "column_break_sqsy",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
+ "istable": 1,
  "links": [],
- "modified": "2024-06-27 13:53:29.351530",
+ "modified": "2024-07-10 09:34:16.579683",
  "modified_by": "Administrator",
  "module": "Icd Tz",
  "name": "Booking details",
  "naming_rule": "Expression",
  "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "System Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
+ "permissions": [],
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
