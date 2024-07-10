@@ -9,8 +9,8 @@
  "engine": "InnoDB",
  "field_order": [
   "employee_id",
-  "name1",
-  "date_of_hiring"
+  "column_break_xddg",
+  "name1"
  ],
  "fields": [
   {
@@ -24,14 +24,13 @@
    "label": "Name"
   },
   {
-   "fieldname": "date_of_hiring",
-   "fieldtype": "Date",
-   "label": "Date of hiring"
+   "fieldname": "column_break_xddg",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-26 17:29:34.423347",
+ "modified": "2024-07-10 10:36:03.814581",
  "modified_by": "Administrator",
  "module": "Icd Tz",
  "name": "Security officer",

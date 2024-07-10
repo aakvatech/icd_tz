@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class InYardContainerBooking(Document):
+class DocumentAttachment(Document):
 	pass

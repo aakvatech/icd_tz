@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class Testcontainercustomverificationaddition(FrappeTestCase):
+class TestGatePass(FrappeTestCase):
 	pass

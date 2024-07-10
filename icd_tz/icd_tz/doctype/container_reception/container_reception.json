@@ -11,7 +11,7 @@
  "engine": "InnoDB",
  "field_order": [
   "details_tab",
-  "movement_order_number",
+  "movement_order",
   "ship_id_date",
   "received_date",
   "voyage_no",
@@ -44,11 +44,6 @@
    "fieldname": "details_tab",
    "fieldtype": "Tab Break",
    "label": "Details"
-  },
-  {
-   "fieldname": "movement_order_number",
-   "fieldtype": "Data",
-   "label": "Movement Order Number"
   },
   {
    "fieldname": "ship_id_date",
@@ -181,12 +176,19 @@
   },
   {
    "fieldname": "section_break_fvbx",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Container Condition"
+  },
+  {
+   "fieldname": "movement_order",
+   "fieldtype": "Link",
+   "label": "Container Movement Order",
+   "options": "Container Movement Order"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-09 17:33:33.465699",
+ "modified": "2024-07-10 10:47:16.404855",
  "modified_by": "Administrator",
  "module": "Icd Tz",
  "name": "Container Reception",

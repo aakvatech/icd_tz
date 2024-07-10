@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestContaineroperationsjobordersbillingitems(FrappeTestCase):
+class TestDocumentAttachment(FrappeTestCase):
 	pass

@@ -1,49 +1,204 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{container_number}-{tansad_number}",
- "creation": "2024-06-27 16:35:47.719536",
- "default_view": "List",
+ "creation": "2024-07-10 11:18:37.437832",
  "doctype": "DocType",
- "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "booking_details_section",
+  "booking_id",
+  "booking_date",
+  "booking_time",
   "container_number",
-  "tansad_number",
+  "cargo_description",
+  "column_break_1",
   "c_and_f_agent",
-  "booking_comment"
+  "customer",
+  "inspection_location",
+  "inspection_scheduling_section",
+  "inspection_date",
+  "inspection_time",
+  "column_break_qyov",
+  "verification_area",
+  "handling_and_charges_section",
+  "stripping_charges",
+  "column_break_sfhl",
+  "additional_charges",
+  "documents_section",
+  "documents",
+  "record_keeping_section",
+  "inspection_log",
+  "column_break_ecwb",
+  "movement_log",
+  "notifications_section",
+  "notify_c_and_f_agent",
+  "notify_customer",
+  "column_break_unre",
+  "notification_method"
  ],
  "fields": [
   {
+   "fieldname": "booking_details_section",
+   "fieldtype": "Section Break",
+   "label": "Booking Details"
+  },
+  {
+   "fieldname": "booking_id",
+   "fieldtype": "Data",
+   "label": "Booking ID",
+   "read_only": 1
+  },
+  {
+   "fieldname": "booking_date",
+   "fieldtype": "Date",
+   "label": "Booking Date"
+  },
+  {
+   "fieldname": "booking_time",
+   "fieldtype": "Time",
+   "label": "Booking Time"
+  },
+  {
    "fieldname": "container_number",
    "fieldtype": "Link",
-   "label": "Container number",
+   "label": "Container Number",
    "options": "Container"
+  },
+  {
+   "fieldname": "cargo_description",
+   "fieldtype": "Text",
+   "label": "Cargo Description"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
   },
   {
    "fieldname": "c_and_f_agent",
    "fieldtype": "Link",
-   "label": "C and F agent",
-   "options": "Clearing agent"
+   "label": "Clearing Agent",
+   "options": "Clearing Agent"
   },
   {
-   "fieldname": "booking_comment",
-   "fieldtype": "Long Text",
-   "label": "Booking commen  (if any)"
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
   },
   {
-   "fieldname": "tansad_number",
-   "fieldtype": "Data",
-   "label": "Tansad number"
+   "fieldname": "inspection_location",
+   "fieldtype": "Select",
+   "label": "Inspection Location",
+   "options": "ICD\nPort"
+  },
+  {
+   "fieldname": "inspection_scheduling_section",
+   "fieldtype": "Section Break",
+   "label": "Inspection Scheduling"
+  },
+  {
+   "fieldname": "inspection_date",
+   "fieldtype": "Date",
+   "label": "Inspection Date"
+  },
+  {
+   "fieldname": "inspection_time",
+   "fieldtype": "Time",
+   "label": "Inspection Time"
+  },
+  {
+   "fieldname": "verification_area",
+   "fieldtype": "Select",
+   "label": "Verification Area",
+   "options": "Area A\nArea B\nArea C"
+  },
+  {
+   "fieldname": "handling_and_charges_section",
+   "fieldtype": "Section Break",
+   "label": "Handling and Charges"
+  },
+  {
+   "fieldname": "stripping_charges",
+   "fieldtype": "Currency",
+   "label": "Stripping Charges"
+  },
+  {
+   "fieldname": "additional_charges",
+   "fieldtype": "Currency",
+   "label": "Additional Charges"
+  },
+  {
+   "fieldname": "notifications_section",
+   "fieldtype": "Section Break",
+   "label": "Notifications"
+  },
+  {
+   "default": "0",
+   "fieldname": "notify_c_and_f_agent",
+   "fieldtype": "Check",
+   "label": "Notify Clearing Agent"
+  },
+  {
+   "default": "0",
+   "fieldname": "notify_customer",
+   "fieldtype": "Check",
+   "label": "Notify Customer"
+  },
+  {
+   "fieldname": "notification_method",
+   "fieldtype": "Select",
+   "label": "Notification Method",
+   "options": "Email\nSMS"
+  },
+  {
+   "fieldname": "record_keeping_section",
+   "fieldtype": "Section Break",
+   "label": "Record Keeping"
+  },
+  {
+   "fieldname": "inspection_log",
+   "fieldtype": "Text",
+   "label": "Inspection Log"
+  },
+  {
+   "fieldname": "movement_log",
+   "fieldtype": "Text",
+   "label": "Movement Log"
+  },
+  {
+   "fieldname": "documents_section",
+   "fieldtype": "Section Break",
+   "label": "Documents"
+  },
+  {
+   "fieldname": "documents",
+   "fieldtype": "Table",
+   "label": "Documents",
+   "options": "Document Attachment"
+  },
+  {
+   "fieldname": "column_break_qyov",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_sfhl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_unre",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ecwb",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-10 09:09:51.932057",
+ "modified": "2024-07-10 11:48:03.119420",
  "modified_by": "Administrator",
  "module": "Icd Tz",
- "name": "In yard container booking",
- "naming_rule": "Expression",
+ "name": "In Yard Container Booking",
  "owner": "Administrator",
  "permissions": [
   {
