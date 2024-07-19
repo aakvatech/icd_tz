@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"xraZ1tJXMG\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Inland Container Department (ICD)</span><br>\",\"col\":12}},{\"id\":\"PRkGHOZAYq\",\"type\":\"card\",\"data\":{\"card_name\":\"Manifest Handling\",\"col\":4}},{\"id\":\"Gl2CzMZDwW\",\"type\":\"card\",\"data\":{\"card_name\":\"Container Movement and Orders\",\"col\":4}},{\"id\":\"l1DAhMDrzy\",\"type\":\"card\",\"data\":{\"card_name\":\"Inspection and Booking\",\"col\":4}},{\"id\":\"h94Cpfs4v7\",\"type\":\"card\",\"data\":{\"card_name\":\"Container Reception\",\"col\":4}},{\"id\":\"ukBwFkljhe\",\"type\":\"card\",\"data\":{\"card_name\":\"Clearance and Dues Management:\",\"col\":4}},{\"id\":\"tkwxO0ZBox\",\"type\":\"card\",\"data\":{\"card_name\":\"Gate Pass Management:\",\"col\":4}}]",
+ "content": "[{\"id\":\"xraZ1tJXMG\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Inland Container Department (ICD)</span><br>\",\"col\":12}},{\"id\":\"PRkGHOZAYq\",\"type\":\"card\",\"data\":{\"card_name\":\"Manifest Handling\",\"col\":4}},{\"id\":\"h94Cpfs4v7\",\"type\":\"card\",\"data\":{\"card_name\":\"Container Reception\",\"col\":4}},{\"id\":\"l1DAhMDrzy\",\"type\":\"card\",\"data\":{\"card_name\":\"Inspection and Booking\",\"col\":4}},{\"id\":\"Gl2CzMZDwW\",\"type\":\"card\",\"data\":{\"card_name\":\"Container Movement and Orders\",\"col\":4}},{\"id\":\"tkwxO0ZBox\",\"type\":\"card\",\"data\":{\"card_name\":\"Gate Pass Management\",\"col\":4}}]",
  "creation": "2024-07-10 16:13:04.844773",
  "custom_blocks": [],
  "docstatus": 0,
@@ -25,9 +25,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Manifest",
+   "label": "Ship Manifest",
    "link_count": 0,
-   "link_to": "Manifest",
+   "link_to": "Ship Manifest",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -35,8 +35,8 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Clearance and Dues Management:",
-   "link_count": 2,
+   "label": "Container Movement and Orders",
+   "link_count": 3,
    "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
@@ -44,9 +44,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Sales Invoice",
+   "label": "Container Movement Order",
    "link_count": 0,
-   "link_to": "Sales Invoice",
+   "link_to": "Container Movement Order",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -54,9 +54,19 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Sales Order",
+   "label": "Container Verification Movement ",
    "link_count": 0,
-   "link_to": "Sales Order",
+   "link_to": "Container Verification Movement",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Transporter",
+   "link_count": 0,
+   "link_to": "Transporter",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -65,7 +75,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Container Reception",
-   "link_count": 2,
+   "link_count": 3,
    "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
@@ -93,28 +103,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Container Movement and Orders",
-   "link_count": 2,
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Container Movement Order",
+   "label": "Container State",
    "link_count": 0,
-   "link_to": "Container Movement Order",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Transporter",
-   "link_count": 0,
-   "link_to": "Transporter",
+   "link_to": "Container State",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -141,9 +132,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Clearing Agent",
+   "label": "Clerk",
    "link_count": 0,
-   "link_to": "Clearing Agent",
+   "link_to": "Clerk",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -151,7 +142,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Gate Pass Management:",
+   "label": "Gate Pass Management",
    "link_count": 3,
    "link_type": "DocType",
    "onboard": 0,
@@ -170,9 +161,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Clerk",
+   "label": "Security officer",
    "link_count": 0,
-   "link_to": "Clerk",
+   "link_to": "Security officer",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -180,17 +171,17 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Security officer",
+   "label": "Clearing Agent",
    "link_count": 0,
-   "link_to": "Security officer",
+   "link_to": "Clearing Agent",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2024-07-19 10:49:00.946068",
+ "modified": "2024-07-19 14:35:51.030049",
  "modified_by": "Administrator",
- "module": "Icd Tz",
+ "module": "ICD TZ",
  "name": "ICD",
  "number_cards": [],
  "owner": "Administrator",

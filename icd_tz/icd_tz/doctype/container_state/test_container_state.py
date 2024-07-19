@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestBookingdetails(FrappeTestCase):
+class TestContainerState(FrappeTestCase):
 	pass

@@ -1,7 +1,6 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{booking_id}",
  "creation": "2024-06-27 13:45:05.734686",
  "default_view": "List",
  "doctype": "DocType",
@@ -55,7 +54,7 @@
    "fieldname": "customer",
    "fieldtype": "Link",
    "label": "Customer",
-   "options": "Customers"
+   "options": "Customer"
   },
   {
    "fieldname": "inspection_location",
@@ -71,11 +70,10 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-07-10 11:37:19.276551",
+ "modified": "2024-07-19 13:41:02.273317",
  "modified_by": "Administrator",
- "module": "Icd Tz",
- "name": "Booking details",
- "naming_rule": "Expression",
+ "module": "ICD TZ",
+ "name": "Booking detail",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "modified",

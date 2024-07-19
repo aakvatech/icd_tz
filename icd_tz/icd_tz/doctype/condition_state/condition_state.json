@@ -17,7 +17,7 @@
    "fieldname": "state",
    "fieldtype": "Link",
    "label": "State",
-   "options": "State"
+   "options": "Container State"
   },
   {
    "fieldname": "reference",
@@ -33,9 +33,9 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-07-10 18:45:30.142236",
+ "modified": "2024-07-19 14:27:43.613464",
  "modified_by": "Administrator",
- "module": "Icd Tz",
+ "module": "ICD TZ",
  "name": "Condition state",
  "naming_rule": "Expression",
  "owner": "Administrator",

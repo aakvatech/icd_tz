@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestContainerCondition(FrappeTestCase):
+class TestContainerVerificationMovement(FrappeTestCase):
 	pass

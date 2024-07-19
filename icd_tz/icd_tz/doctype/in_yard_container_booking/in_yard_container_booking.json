@@ -12,8 +12,8 @@
   "container_number",
   "cargo_description",
   "column_break_1",
-  "c_and_f_agent",
   "customer",
+  "c_and_f_agent",
   "inspection_location",
   "inspection_scheduling_section",
   "inspection_date",
@@ -23,7 +23,6 @@
   "handling_and_charges_section",
   "stripping_charges",
   "column_break_sfhl",
-  "additional_charges",
   "documents_section",
   "documents",
   "record_keeping_section",
@@ -66,7 +65,7 @@
   },
   {
    "fieldname": "cargo_description",
-   "fieldtype": "Text",
+   "fieldtype": "Small Text",
    "label": "Cargo Description"
   },
   {
@@ -118,14 +117,10 @@
    "label": "Handling and Charges"
   },
   {
+   "default": "0",
    "fieldname": "stripping_charges",
-   "fieldtype": "Currency",
+   "fieldtype": "Check",
    "label": "Stripping Charges"
-  },
-  {
-   "fieldname": "additional_charges",
-   "fieldtype": "Currency",
-   "label": "Additional Charges"
   },
   {
    "fieldname": "notifications_section",
@@ -195,9 +190,9 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-10 11:48:03.119420",
+ "modified": "2024-07-19 13:47:50.356370",
  "modified_by": "Administrator",
- "module": "Icd Tz",
+ "module": "ICD TZ",
  "name": "In Yard Container Booking",
  "owner": "Administrator",
  "permissions": [

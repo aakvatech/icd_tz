@@ -4,5 +4,5 @@
 # import frappe
 from frappe.model.document import Document
 
-class Bookingdetails(Document):
+class Bookingdetail(Document):
 	pass

@@ -12,11 +12,10 @@
  "field_order": [
   "details_tab",
   "movement_order",
+  "ship_name",
   "ship_id_date",
   "received_date",
   "voyage_no",
-  "ship_name",
-  "line",
   "column_break_azrq",
   "port",
   "carry_in_date",
@@ -33,11 +32,18 @@
   "seal_no_2",
   "dcn",
   "section_break_fvbx",
-  "container_condition",
+  "top",
+  "bottom",
+  "column_break_iath",
+  "front",
+  "rear",
+  "column_break_woyo",
+  "right_side",
+  "left_side",
   "personnel_and_security_tab",
   "clerk",
-  "security_officer",
-  "condition"
+  "column_break_kepu",
+  "security_officer"
  ],
  "fields": [
   {
@@ -71,11 +77,6 @@
    "label": "Port"
   },
   {
-   "fieldname": "line",
-   "fieldtype": "Data",
-   "label": "Line"
-  },
-  {
    "fieldname": "column_break_azrq",
    "fieldtype": "Column Break"
   },
@@ -97,7 +98,7 @@
   {
    "fieldname": "container_no",
    "fieldtype": "Data",
-   "label": "Container #"
+   "label": "Container"
   },
   {
    "fieldname": "size",
@@ -142,12 +143,6 @@
    "label": "DCN"
   },
   {
-   "fieldname": "container_condition",
-   "fieldtype": "Table",
-   "label": "Container Condition",
-   "options": "Container Condition"
-  },
-  {
    "fieldname": "personnel_and_security_tab",
    "fieldtype": "Tab Break",
    "label": "Personnel and Security"
@@ -156,19 +151,13 @@
    "fieldname": "clerk",
    "fieldtype": "Link",
    "label": "Clerk",
-   "options": "Employee"
+   "options": "Clerk"
   },
   {
    "fieldname": "security_officer",
    "fieldtype": "Link",
    "label": "Security Officer",
-   "options": "Employee"
-  },
-  {
-   "fieldname": "condition",
-   "fieldtype": "Link",
-   "label": "Condition",
-   "options": "Container Condition"
+   "options": "Security officer"
   },
   {
    "fieldname": "column_break_twjr",
@@ -184,13 +173,61 @@
    "fieldtype": "Link",
    "label": "Container Movement Order",
    "options": "Container Movement Order"
+  },
+  {
+   "fieldname": "column_break_kepu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "top",
+   "fieldtype": "Table MultiSelect",
+   "label": "Top",
+   "options": "Condition state"
+  },
+  {
+   "fieldname": "front",
+   "fieldtype": "Table MultiSelect",
+   "label": "Front",
+   "options": "Condition state"
+  },
+  {
+   "fieldname": "rear",
+   "fieldtype": "Table MultiSelect",
+   "label": "Rear",
+   "options": "Condition state"
+  },
+  {
+   "fieldname": "bottom",
+   "fieldtype": "Table MultiSelect",
+   "label": "Bottom",
+   "options": "Condition state"
+  },
+  {
+   "fieldname": "left_side",
+   "fieldtype": "Table MultiSelect",
+   "label": "Left side",
+   "options": "Condition state"
+  },
+  {
+   "fieldname": "right_side",
+   "fieldtype": "Table MultiSelect",
+   "label": " Right side",
+   "options": "Condition state"
+  },
+  {
+   "fieldname": "column_break_iath",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_woyo",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-10 10:47:16.404855",
+ "modified": "2024-07-19 14:26:16.954164",
  "modified_by": "Administrator",
- "module": "Icd Tz",
+ "module": "ICD TZ",
  "name": "Container Reception",
  "naming_rule": "Expression",
  "owner": "Administrator",

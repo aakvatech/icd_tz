@@ -1,9 +1,8 @@
-# Copyright (c) 2024, Nathan Kagoro and contributors
+# Copyright (c) 2024, Nelson Mpanju and contributors
 # For license information, please see license.txt
 
 # import frappe
 from frappe.model.document import Document
 
-
-class Manifest(Document):
+class HouseBI(Document):
 	pass

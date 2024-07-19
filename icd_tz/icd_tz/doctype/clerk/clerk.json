@@ -8,15 +8,16 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "employee_id",
+  "name1",
   "column_break_pwyr",
-  "name1"
+  "employee_id"
  ],
  "fields": [
   {
    "fieldname": "employee_id",
-   "fieldtype": "Data",
-   "label": "Employee ID"
+   "fieldtype": "Link",
+   "label": "Employee ID",
+   "options": "Employee"
   },
   {
    "fieldname": "name1",
@@ -30,9 +31,9 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-10 09:18:09.452934",
+ "modified": "2024-07-19 14:33:00.219714",
  "modified_by": "Administrator",
- "module": "Icd Tz",
+ "module": "ICD TZ",
  "name": "Clerk",
  "naming_rule": "Expression",
  "owner": "Administrator",
