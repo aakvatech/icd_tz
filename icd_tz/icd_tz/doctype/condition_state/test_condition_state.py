@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestPersonnelandSecurity(FrappeTestCase):
+class TestConditionstate(FrappeTestCase):
 	pass

@@ -1,35 +1,26 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{customer_name}",
- "creation": "2024-06-27 13:50:31.294094",
- "default_view": "List",
+ "creation": "2024-07-10 18:28:41.649858",
  "doctype": "DocType",
- "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "customer_name",
-  "contract_details"
+  "state"
  ],
  "fields": [
   {
-   "fieldname": "customer_name",
-   "fieldtype": "Data",
-   "label": "Customer name"
-  },
-  {
-   "fieldname": "contract_details",
-   "fieldtype": "Data",
-   "label": "Contract details"
+   "fieldname": "state",
+   "fieldtype": "Link",
+   "label": "State",
+   "options": "Container State"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-27 13:50:31.294094",
+ "modified": "2024-07-10 18:30:53.409636",
  "modified_by": "Administrator",
  "module": "Icd Tz",
- "name": "Customers",
- "naming_rule": "Expression",
+ "name": "State",
  "owner": "Administrator",
  "permissions": [
   {
