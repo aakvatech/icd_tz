@@ -85,9 +85,21 @@
    "label": "Containers section"
   },
   {
+   "fieldname": "containers",
+   "fieldtype": "Table",
+   "label": "Containers",
+   "options": "Containers Detail"
+  },
+  {
    "fieldname": "section_break_xni6w",
    "fieldtype": "Tab Break",
    "label": "HBIContainers"
+  },
+  {
+   "fieldname": "hbicontainers",
+   "fieldtype": "Table",
+   "label": "HBIContainers",
+   "options": "HBIContainer"
   },
   {
    "fieldname": "section_break_y3pib",
@@ -95,9 +107,21 @@
    "label": "MasterBI"
   },
   {
+   "fieldname": "table_wyqi",
+   "fieldtype": "Table",
+   "label": "MasterBI",
+   "options": "MasterBI"
+  },
+  {
    "fieldname": "section_break_sm463",
    "fieldtype": "Tab Break",
    "label": "HouseBI"
+  },
+  {
+   "fieldname": "housebi",
+   "fieldtype": "Table",
+   "label": "HouseBI",
+   "options": "HouseBI"
   },
   {
    "fieldname": "amended_from",
@@ -108,29 +132,6 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
-  },
-  {
-   "fieldname": "containers",
-   "fieldtype": "Table",
-   "label": "Containers",
-   "options": "Containers Detail"
-  },
-  {
-   "fieldname": "hbicontainers",
-   "fieldtype": "Table",
-   "label": "HBIContainers",
-   "options": "HBIContainer"
-  },
-  {
-   "fieldname": "table_wyqi",
-   "fieldtype": "Table",
-   "options": "MasterBI"
-  },
-  {
-   "fieldname": "housebi",
-   "fieldtype": "Table",
-   "label": "HouseBI",
-   "options": "HouseBI"
   }
  ],
  "index_web_pages_for_search": 1,

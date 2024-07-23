@@ -79,7 +79,7 @@
   },
   {
    "fieldname": "package_unit",
-   "fieldtype": "Data",
+   "fieldtype": "Text",
    "label": "Package Unit"
   },
   {
